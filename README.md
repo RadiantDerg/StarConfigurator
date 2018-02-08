@@ -7,8 +7,8 @@ Simply edit the directories in `StarConfigurator.exe.config` to match the instal
 If the application doesn't have file permissions, run it as Administrator.
 
 ### Example: 
-	`<add key="StarboundDirectory" value="C:\Program Files (x86)\Steam\steamapps\common\Starbound\win64"/>`
-	`<add key="WorkshopFolder" value="C:\Program Files (x86)\Steam\steamapps\workshop\content\211820"/>`
+	<add key="StarboundDirectory" value="C:\Program Files (x86)\Steam\steamapps\common\Starbound\win64"/>
+	<add key="WorkshopFolder" value="C:\Program Files (x86)\Steam\steamapps\workshop\content\211820"/>
 	
 Notes:
 
