@@ -14,7 +14,6 @@ namespace StarConfigurator
         static void Main(string[] args)
         {
             Console.WriteLine("Checking if Starbound is installed...");
-
             findFolders();
 
             if (dirSuccess == "1")
