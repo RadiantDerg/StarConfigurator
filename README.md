@@ -1,4 +1,4 @@
-# StarConfigurator (Windows only)
+# StarConfigurator (64-Bit Windows only)
 This simple tool allows a user to quickly set up Steam Workshop mods in Starbound's sbinit.config for dedicated servers.
 
 ## Using:
