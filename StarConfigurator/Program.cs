@@ -21,20 +21,20 @@ namespace StarConfigurator
                 try
                 {
                     listModDirectories(workshopFolder);
-                    Console.WriteLine("Press any key to exit.");
+                    Console.WriteLine("Done. Press Enter to exit.");
                     Console.ReadLine();
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine("An unknown error occurred. Details: \n" +
                         "\n" + ex.Message);
-                    Console.WriteLine("Press any key to exit.");
+                    Console.WriteLine("Press Enter to exit.");
                     Console.ReadLine();
                 }
             }
             else
             {
-                Console.WriteLine("Press any key to exit.");
+                Console.WriteLine("Press Enter to exit.");
                 Console.ReadLine();
             }
         }
@@ -93,8 +93,7 @@ namespace StarConfigurator
             sb.AppendLine("\"..\\\\assets\\\\\",");
             foreach (string directory in directories)
             {
-                var input = (directory);
-                var output = input.Replace(workshopFolder, "");
+                var output = directory.Replace(workshopFolder, "");
 
                 sb.AppendLine("\"..\\\\..\\\\..\\\\workshop\\\\content\\\\211820\\" + output + "\\\\\",");
                 Console.WriteLine("Created entry for " + output);
