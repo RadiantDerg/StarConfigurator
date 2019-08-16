@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("StarConfigurator")]
-[assembly: AssemblyCopyright("Copyright ©StreakSharpshot 2018")]
+[assembly: AssemblyCopyright("Copyright ©RadiantDerg 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
