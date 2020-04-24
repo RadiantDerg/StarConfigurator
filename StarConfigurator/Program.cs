@@ -9,14 +9,14 @@ namespace StarConfigurator
     {
         static string starboundDirectory;
         static string workshopFolder;
-        static string dirSuccess = "0";
+        static bool dirSuccess = false;
 
         static void Main(string[] args)
         {
             Console.WriteLine("Checking if Starbound is installed...");
             findFolders();
 
-            if (dirSuccess == "1")
+            if (dirSuccess == true)
             {
                 try
                 {
@@ -59,7 +59,7 @@ namespace StarConfigurator
 
                             starboundDirectory = sd.ToString();
                             workshopFolder = wd.ToString();
-                            dirSuccess = "1";
+                            dirSuccess = true;
                         }
                         else
                         {
