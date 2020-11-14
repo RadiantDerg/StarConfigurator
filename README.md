@@ -4,8 +4,3 @@ This simple tool allows a user to quickly set up Steam Workshop mods in Starboun
 
 ## Using:
 Simply run StarConfigurator.exe and it will automatically generate a new configuration file for Starbound.
-
-
-To do:
-
-	Add command-line arguments for custom paths	
